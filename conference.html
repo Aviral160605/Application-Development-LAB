@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAITRI2025 Conference</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            box-sizing: border-box;
+            line-height: 1.1;
+        }
+
+        .conference-banner {
+            background-color: #ffffff;
+            padding: 6px;
+            border-radius: 4px;
+            box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 96%;
+            max-width: 680px;
+            box-sizing: border-box;
+        }
+
+        .conference-banner h1 {
+            font-size: 1.5em;
+            color: #007bff;
+            margin-bottom: 3px;
+        }
+
+        .conference-banner h2 {
+            font-size: 1em;
+            color: #333;
+            margin-bottom: 1px;
+        }
+
+        .conference-banner h3 {
+            font-size: 0.8em;
+            color: #555;
+            margin-bottom: 4px;
+        }
+
+        .date-venue-container {
+            margin-top: 4px;
+            margin-bottom: 4px;
+        }
+
+        .date-header,
+        .venue-header {
+            display: inline-block;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 1px;
+            margin-bottom: 1px;
+            font-size: 0.7em;
+        }
+
+        .important-dates {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 3px;
+            margin-top: 6px;
+        }
+
+        .date-box {
+            background-color: #e9ecef;
+            padding: 5px 8px;
+            border-radius: 3px;
+            text-align: center;
+            width: 120px;
+            font-size: 0.7em;
+        }
+
+        .date-box strong {
+            display: block;
+            margin-bottom: 1px;
+            color: #0056b3;
+        }
+
+        .thrust-areas {
+            text-align: left;
+            margin-top: 6px;
+        }
+
+        .thrust-areas ul {
+            list-style-type: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+            gap: 2px;
+        }
+
+        .thrust-areas li {
+            padding: 1px 3px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            background-color: #f9f9f9;
+            font-size: 0.65em;
+        }
+
+        .website-links {
+            margin-top: 6px;
+            font-size: 0.7em;
+        }
+
+        .website-links p {
+            margin-bottom: 1px;
+        }
+
+        .website-links a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .website-links a:hover {
+            text-decoration: underline;
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-top: 6px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .logo-container img {
+            max-width: 70%;
+            height: auto;
+        }
+
+        .kiit-logo {
+            max-width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto 5px;
+        }
+
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+                min-height: auto;
+                line-height: 1.05;
+            }
+
+            .conference-banner {
+                width: 100%;
+                max-width: none;
+                box-shadow: none;
+                border: none;
+                border-radius: 0;
+                padding: 4px;
+            }
+
+            .logo-container img {
+                max-width: 50%;
+            }
+
+            .kiit-logo {
+                max-width: 80px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="conference-banner">
+        <h2>3rd International Conference</h2>
+        <h1>MAITRI2025</h1>
+        <h3>MAchine in Telligence for Research & Innovations</h3>
+
+        <div class="date-venue-container">
+            <h4>Date:</h4>
+            <p class="date-header">August 1-2, 2025</p>
+            <h4>Venue:</h4>
+            <img class="kiit-logo" src="C:\Users\jaisw\Downloads\AD LAB SESSIONAL\image\kiit.jpg" alt="KIIT Logo">
+            <p class="venue-header">School of Electronics Engineering</p>
+            <p>KIIT DEEMED TO BE UNIVERSITY<br>
+                Bhubaneswar, Odisha, India</p>
+        </div>
+
+        <div class="thrust-areas">
+            <h4>Major Domains (Thrust Areas):</h4>
+            <ul>
+                <li>Affective Computing</li>
+                <li>Artificial Intelligence</li>
+                <li>Autonomous Vehicle Technology</li>
+                <li>Bioinformatics</li>
+                <li>Cognitive Intelligence</li>
+                <li>Combinatorial Optimization</li>
+                <li>Computer Vision</li>
+                <li>Competitive Intelligence</li>
+                <li>Cyber-physical system</li>
+                <li>Cyber Security</li>
+                <li>Data and Web Mining</li>
+                <li>Deterministic Chaos, Complexity and Fractals</li>
+                <li>Drone Technology and its Application</li>
+                <li>Human Machine Intelligence</li>
+                <li>Hybrid Intelligent Systems</li>
+                <li>Intelligent Healthcare and Diagnostic</li>
+                <li>IoT and smart environments</li>
+                <li>Machine Learning and Deep Learning</li>
+                <li>Metaheuristics</li>
+                <li>Navigation Technology</li>
+                <li>Pattern Recognition</li>
+                <li>Quantum Computing</li>
+                <li>Remote Sensing and Forecasting</li>
+                <li>Risk analysis and safety-related issues</li>
+                <li>Robotics & Control</li>
+                <li>Signal and Image Processing</li>
+                <li>Speech and Language Processing</li>
+                <li>Swarm Intelligence</li>
+                <li>Sustainable Agriculture</li>
+                <li>Supply Chain and Business Management</li>
+                <li>Sustainable Development and Technology</li>
+                <li>System modeling and optimization</li>
+                <li>Time series prediction</li>
+            </ul>
+        </div>
+
+        <h4>Important Dates:</h4>
+        <div class="important-dates">
+            <div class="date-box">
+                <strong>Paper Submission:</strong>
+                May 15, 2025
+            </div>
+            <div class="date-box">
+                <strong>Paper Acceptance:</strong>
+                June 30, 2025
+            </div>
+            <div class="date-box">
+                <strong>Decision Notification:</strong>
+                July 8, 2025
+            </div>
+            <div class="date-box">
+                <strong>Early Bird Registration:</strong>
+                July 8, 2025
+            </div>
+        </div>
+
+        <div class="website-links">
+            <h4>Conference Website:</h4>
+            <p><a href="https://maitri.stemrs.in">https://maitri.stemrs.in</a></p>
+            <p>Paper Submission CMT: <a href="https://cmt3.research.microsoft.com/MAITRI2025">https://cmt3.research.microsoft.com/MAITRI2025</a></p>
+        </div>
+
+        <div class="logo-container">
+            <img src="C:\Users\jaisw\Downloads\AD LAB SESSIONAL\image\Maitri.jpg" alt="QR CODE">
+        </div>
+    </div>
+</body>
+
+</html>
